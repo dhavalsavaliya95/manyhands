@@ -1,0 +1,20 @@
+//
+// your custom scss goes here
+//
+
+.header {
+  .navbar {
+    .nav-link {
+      @include media-breakpoint-down(xl) { 
+        padding: 8px !important;
+      }  
+    }
+  }
+}
+
+
+@include media-breakpoint-down(lg) {
+  .inverted-lg, .inverted-lg .text-secondary {
+    color: $white !important;
+  }
+}
